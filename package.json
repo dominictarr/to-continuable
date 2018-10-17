@@ -1,0 +1,22 @@
+{
+  "name": "to-continuable",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/to-continuable",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/to-continuable.git"
+  },
+  "dependencies": {
+    "pull-stream": "^3.6.9"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "istanbul cover test/index.js"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
